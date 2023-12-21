@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Aguila1 from './assets/img/4.svg';
 import Aguila2 from './assets/img/5.svg';
 import Aguila3 from './assets/img/6.svg';
-import Aguila4 from './assets/img/7.svg';
+import Aguila4 from './assets/img/lingoCartel10Camiseta.svg';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -209,13 +209,13 @@ function App() {
               <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
                 <img
                   alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  className="max-w-full rounded-lg shadow-lg my-4"
+                  src="https://img.freepik.com/foto-gratis/mujer-ensenando-estudiantes-clase-ingles-linea_23-2148962952.jpg?w=360&t=st=1703171817~exp=1703172417~hmac=c26aead28c0e8626c3cde421450fea9bd93f2d4426e1f602cfe4bfc864f5a6f7"
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
-                  <div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+                  <div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-red-300">
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
                   <h3 className="text-3xl font-semibold">
@@ -231,13 +231,13 @@ function App() {
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-red-200 mr-3">
                             <i className="fas fa-fingerprint"></i>
                           </span>
                         </div>
                         <div>
                           <h4 className="text-gray-600">
-                            Carefully crafted components
+                          Actividades interactivas
                           </h4>
                         </div>
                       </div>
@@ -245,24 +245,24 @@ function App() {
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-red-200 mr-3">
                             <i className="fab fa-html5"></i>
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">Amazing page examples</h4>
+                          <h4 className="text-gray-600">Material Didactico</h4>
                         </div>
                       </div>
                     </li>
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
+                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-red-200 mr-3">
                             <i className="far fa-paper-plane"></i>
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">Dynamic components</h4>
+                          <h4 className="text-gray-600">Ambiente Amigable y Positivo</h4>
                         </div>
                       </div>
                     </li>
@@ -445,7 +445,7 @@ function App() {
           </div>
         </section>
 
-        <section className="pb-20 relative block bg-gray-900">
+        <section className="pb-20 relative block bg-blue-800">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style={{ height: "80px" }}
@@ -460,7 +460,7 @@ function App() {
               y="0"
             >
               <polygon
-                className="text-gray-900 fill-current"
+                className="text-red-600 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -472,7 +472,7 @@ function App() {
                 <h2 className="text-4xl font-semibold text-white">
                   Build something
                 </h2>
-                <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+                <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-100">
                   Put the potentially record low maximum sea ice extent tihs year down to low ice.
                   According to the National Oceanic and Atmospheric Administration, Ted, Scambos.
                 </p>
@@ -486,7 +486,7 @@ function App() {
                 <h6 className="text-xl mt-5 font-semibold text-white">
                   Excelent Services
                 </h6>
-                <p className="mt-2 mb-4 text-gray-500">
+                <p className="mt-2 mb-4 text-gray-100">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
@@ -498,7 +498,7 @@ function App() {
                 <h5 className="text-xl mt-5 font-semibold text-white">
                   Grow your market
                 </h5>
-                <p className="mt-2 mb-4 text-gray-500">
+                <p className="mt-2 mb-4 text-gray-100">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
@@ -510,7 +510,7 @@ function App() {
                 <h5 className="text-xl mt-5 font-semibold text-white">
                   Launch time
                 </h5>
-                <p className="mt-2 mb-4 text-gray-500">
+                <p className="mt-2 mb-4 text-gray-100">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
@@ -518,11 +518,11 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="relative block py-24 lg:pt-0 bg-gray-900">
+        <section className="relative block py-24 lg:pt-0 bg-blue-800">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               <div className="w-full lg:w-6/12 px-4">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
+                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-700">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold">
                       Want to work with us?

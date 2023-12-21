@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="relative bg-blue-700 pt-8 pb-6">
+    <footer className="relative bg- pt-8 pb-6 bg-gray-900">
       <div
         className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style={{ height: "80px" }}
@@ -17,7 +17,7 @@ export default function Footer() {
           y="0"
         >
           <polygon
-            className="text-gray-300 fill-current"
+            className="text-red-600 fill-current"
             points="2560 0 2560 100 0 100"
           ></polygon>
         </svg>
@@ -28,7 +28,7 @@ export default function Footer() {
             <h4 className="text-3xl font-semibold text-white">
               Let's keep in touch!
             </h4>
-            <h5 className="text-lg mt-0 mb-2 text-gray-100">
+            <h5 className="text-lg mt-0 mb-2 text-gray-800">
               Find us on any of these platforms, we respond 1-2 business days.
             </h5>
             <div className="mt-6">
