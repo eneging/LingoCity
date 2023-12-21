@@ -53,7 +53,7 @@ export default function Footer() {
                 className="bg-white text-green-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-              <a href="https://api.whatsapp.com/send/?phone=51943464938"> <i className="flex fab fa-whatsapp"></i></a> 
+              <a href="https://api.whatsapp.com/send/?phone=51987296990"> <i className="flex fab fa-whatsapp"></i></a> 
               </button>
               <button
                 className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"

@@ -27,7 +27,7 @@ function App() {
       showCancelButton: true,
       focusConfirm: false,
       confirmButtonText: `
-      <a href="https://api.whatsapp.com/send/?phone=51943464938">   <i class="fa fa-thumbs-up"></i> Great! </a>
+      <a href="https://api.whatsapp.com/send/?phone=51987296990">   <i class="fa fa-thumbs-up"></i> Great! </a>
       `,
       confirmButtonAriaLabel: "Thumbs up, great!",
       cancelButtonText: `
@@ -569,7 +569,9 @@ function App() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               <div className="w-full lg:w-6/12 px-4">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg my-6 bg-gray-700">
+              
+
+                <form action="https://formsubmit.co/edwarrejasreyes@gmail.com" method="POST" className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg my-6 bg-gray-700">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold text-white">
                       Want to work with us?
@@ -589,6 +591,8 @@ function App() {
                         className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                         placeholder="Full Name"
                         style={{ transition: "all .15s ease" }}
+                      
+                      name='name'
                       />
                     </div>
 
@@ -604,6 +608,7 @@ function App() {
                         className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                         placeholder="Email"
                         style={{ transition: "all .15s ease" }}
+                      name='email'
                       />
                     </div>
 
@@ -619,19 +624,20 @@ function App() {
                         cols="80"
                         className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                         placeholder="Type a message..."
+                      name='message'
                       />
                     </div>
                     <div className="text-center mt-6">
                       <button
                         className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
+                        type="submit"
                         style={{ transition: "all .15s ease" }}
                       >
                         Send Message
                       </button>
                     </div>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
           </div>
