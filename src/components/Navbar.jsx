@@ -123,7 +123,7 @@ export default function Navbar(props) {
             </li>  */}
 
             <li className="flex items-center text-gray-200 text-xl px-3">
-              <a href="https://api.whatsapp.com/send/?phone=51910643958"
+              <a href="https://api.whatsapp.com/send/?phone=51943464938"
                
               >
                

@@ -6,9 +6,36 @@ import Aguila2 from './assets/img/5.svg';
 import Aguila3 from './assets/img/6.svg';
 import Aguila4 from './assets/img/lingoCartel10Camiseta.svg';
 import Navbar from './components/Navbar';
+import { useEffect } from 'react';
+import Swal from 'sweetalert2';
 
 function App() {
 
+  useEffect(() => {
+    Swal.fire({
+
+      imageUrl: "https://scontent.flim19-1.fna.fbcdn.net/v/t39.30808-6/412352037_122098544570160453_1543660729525608129_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeFrxPfkMD0F3fTJZq-vlkBEgGPGHwlear-AY8YfCV5qv4C5ER7GYPdEZzVynh10l09GvA2ZxFbQ2qp6xykOXZTo&_nc_ohc=-YBerPP6dAYAX916AK0&_nc_ht=scontent.flim19-1.fna&oh=00_AfCrLT4pA8qTIx40GLzKCq6tNZGCxMUBEXccDuPLUleSzA&oe=6588EEBE",
+      imageHeight: 700,
+      imageWidth: 800,
+     
+  
+      html: `
+      
+        ¡Únete a nosotros en Lingo City, donde el aprendizaje no toma vacaciones y cada día es una nueva aventura educativa! 🌞🚀💬
+      `,
+      showCloseButton: true,
+      showCancelButton: true,
+      focusConfirm: false,
+      confirmButtonText: `
+      <a href="https://api.whatsapp.com/send/?phone=51943464938">   <i class="fa fa-thumbs-up"></i> Great! </a>
+      `,
+      confirmButtonAriaLabel: "Thumbs up, great!",
+      cancelButtonText: `
+        <i class="fa fa-thumbs-down"></i>
+      `,
+      cancelButtonAriaLabel: "Thumbs down"
+    });
+  }, []);
 
   return (
     <>
@@ -138,7 +165,7 @@ function App() {
                   educativa única y enriquecedora.
 
                 </p>
-
+              
                <div className='w-[28vw]'> <img className='   static  ' src={Aguila4}></img>
                </div>
               </div>
@@ -227,6 +254,7 @@ function App() {
                    Experimenta la diferencia de aprender en grupos personalizados, 
                    donde cada estudiante recibe la atención que merece.
                   </p>
+                  
                   <ul className="list-none mt-6">
                     <li className="py-2">
                       <div className="flex items-center">
@@ -274,17 +302,18 @@ function App() {
         </section>
 
 
-        <section className="pt-20 pb-48">
+        <section className="pt-20 pb-48 bg-gray-100">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold">
-                Mascota Lingo
+                🌟 Conoce al Equipo de Lingo City: Haciendo del Aprendizaje una Aventura 🌟
                 </h2>
                 <p className="text-lg leading-relaxed m-4 text-gray-600">
-                Conoce a Lingo, nuestro águila juguetona y sabia que simboliza 
-                la grandeza y la facilidad en el aprendizaje del inglés.
-                 Acompáñanos en este viaje educativo lleno de alegría y descubrimientos.
+                ¡Hola a nuestra querida comunidad de aprendices!
+                 Hoy, queremos presentarles al increíble equipo que
+                  trabaja incansablemente detrás de escena en Lingo
+                   City para hacer de cada clase una experiencia inolvidable.
                 </p>
               </div>
             </div>
@@ -294,7 +323,7 @@ function App() {
                   <img
                     alt="..."
                     src={Aguila1}
-                    className="shadow-lg rounded-full max-w-full mx-auto"
+                    className="shadow-lg rounded-full max-w-full mx-auto bg-white"
                     style={{ maxWidth: "120px" }}
                   />
                   <div className="pt-6 text-center">
@@ -332,7 +361,7 @@ function App() {
                   <img
                     alt="..."
                     src={Aguila2}
-                    className="shadow-lg rounded-full max-w-full mx-auto"
+                    className="shadow-lg rounded-full max-w-full mx-auto bg-white"
                     style={{ maxWidth: "120px" }}
                   />
                   <div className="pt-6 text-center">
@@ -364,7 +393,7 @@ function App() {
                   <img
                     alt="..."
                     src={Aguila4}
-                    className="shadow-lg rounded-full max-w-full mx-auto"
+                    className="shadow-lg rounded-full max-w-full mx-auto bg-white"
                     style={{ maxWidth: "120px" }}
                   />
                   <div className="pt-6 text-center">
@@ -402,7 +431,7 @@ function App() {
                   <img
                     alt="..."
                     src={Aguila3}
-                    className="shadow-lg rounded-full max-w-full mx-auto"
+                    className="shadow-lg rounded-full max-w-full mx-auto bg-white"
                     style={{ maxWidth: "120px" }}
                   />
                   <div className="pt-6 text-center">
@@ -590,6 +619,7 @@ function App() {
           </div>
         </section>
       </main>
+      
       <Footer />
     </>
   )
