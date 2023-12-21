@@ -317,8 +317,8 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div className="flex flex-wrap ">
+              <div className="w-full md:w-6/12 lg:w-[33%] lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -328,10 +328,10 @@ function App() {
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">
-                      Ryan Tompson
+                      Claudia Luna
                     </h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Web Developer
+                      Cofundadora
                     </p>
                     <div className="mt-6">
                       <button
@@ -356,7 +356,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div className="w-full md:w-6/12 lg:w-[33%] lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -366,10 +366,10 @@ function App() {
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">
-                      Romina Hadid
+                      Mayra Garcia
                     </h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Marketing Specialist
+                    Cofundadora
                     </p>
                     <div className="mt-6">
                       <button
@@ -388,7 +388,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div className="w-full md:w-6/12 lg:w-[33%] lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -398,7 +398,7 @@ function App() {
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">
-                      Alexa Smith
+                      Edwar Rejas
                     </h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
                       UI/UX Designer
@@ -426,6 +426,7 @@ function App() {
                   </div>
                 </div>
               </div>
+              {/* 
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
@@ -467,11 +468,16 @@ function App() {
                         <i className="fab fa-instagram"></i>
                       </button>
                     </div>
+                   
                   </div>
+                
                 </div>
+                 
               </div>
+               */}
             </div>
           </div>
+           
         </section>
 
         <section className="pb-20 relative block bg-blue-800">
@@ -497,27 +503,33 @@ function App() {
 
           <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
             <div className="flex flex-wrap text-center justify-center">
-              <div className="w-full lg:w-6/12 px-4">
+              <div className="w-full lg:w-6/12 px-4 ">
                 <h2 className="text-4xl font-semibold text-white">
-                  Build something
+                Desbloquea Tu Potencial con Lingo City
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-100">
-                  Put the potentially record low maximum sea ice extent tihs year down to low ice.
-                  According to the National Oceanic and Atmospheric Administration, Ted, Scambos.
+                Descubre cómo Lingo City, a través de su dedicado equipo, 
+                está derribando barreras en el aprendizaje del inglés. 
+                Según la Administración Nacional Oceánica y Atmosférica,
+                 así como Ted Scambos, la extensión máxima del hielo marino 
+                 podría alcanzar niveles récord este año. ¡De manera similar,
+                  Lingo City está rompiendo récords en la enseñanza del inglés!
                 </p>
               </div>
             </div>
-            <div className="flex flex-wrap mt-12 justify-center">
+            <div className="flex flex-wrap mt-12 justify-center gap-6">
               <div className="w-full lg:w-3/12 px-4 text-center">
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <i className="fas fa-medal text-xl"></i>
                 </div>
                 <h6 className="text-xl mt-5 font-semibold text-white">
-                  Excelent Services
+                Servicios Excelentes que Transforman tu Aprendizaje
                 </h6>
                 <p className="mt-2 mb-4 text-gray-100">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Servicios excepcionales que superan tus expectativas.
+                 Con Lingo City, no solo aprendes inglés, sino que
+                  experimentas un cambio en tu enfoque hacia el aprendizaje.
+                   Nuestro equipo apasionado está aquí para guiarte en cada paso.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -525,11 +537,14 @@ function App() {
                   <i className="fas fa-poll text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                  Grow your market
+                Expandiendo Tu Mercado de Conocimientos
                 </h5>
                 <p className="mt-2 mb-4 text-gray-100">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Así como el hielo marino se expande y contrae, 
+                tu conocimiento también puede crecer y evolucionar.
+                 Lingo City te brinda la plataforma para expandir
+                 tu mercado de habilidades lingüísticas. 
+                 ¡Sumérgete en el aprendizaje con nosotros!
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -537,11 +552,14 @@ function App() {
                   <i className="fas fa-lightbulb text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                  Launch time
+                El Momento de Despegar con Lingo City
                 </h5>
                 <p className="mt-2 mb-4 text-gray-100">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Similar al lanzamiento de un cohete, 
+                Lingo City te impulsa hacia nuevas alturas lingüísticas.
+                 Nuestras clases son la plataforma de lanzamiento
+                  para tu éxito en el aprendizaje del inglés.
+                   ¡Prepárate para despegar!
                 </p>
               </div>
             </div>
@@ -551,12 +569,12 @@ function App() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               <div className="w-full lg:w-6/12 px-4">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-700">
+                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg my-6 bg-gray-700">
                   <div className="flex-auto p-5 lg:p-10">
-                    <h4 className="text-2xl font-semibold">
+                    <h4 className="text-2xl font-semibold text-white">
                       Want to work with us?
                     </h4>
-                    <p className="leading-relaxed mt-1 mb-4 text-gray-600">
+                    <p className="leading-relaxed mt-1 mb-4 text-gray-100">
                       Complete this form and we will get back to you in 24 hours.
                     </p>
                     <div className="relative w-full mb-3 mt-8">
