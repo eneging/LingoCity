@@ -571,7 +571,7 @@ function App() {
               <div className="w-full lg:w-6/12 px-4">
               
 
-                <form action="https://formsubmit.co/edwarrejasreyes@gmail.com" method="POST" className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg my-6 bg-gray-700">
+                <form action="https://formsubmit.co/233cdc15a00551c91997db910ffcf72e" method="POST" className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg my-6 bg-gray-700">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold text-white">
                       Want to work with us?
